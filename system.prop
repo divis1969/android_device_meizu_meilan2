@@ -19,7 +19,7 @@
 #ro.build.version.release=5.1
 #ro.build.date=Mon Dec 21 10:25:21 CST 2015
 #ro.build.date.utc=1450664721
-#ro.build.type=user
+#ro.build.type=userdebug
 #ro.build.user=flyme
 #ro.build.host=mz-builder-7
 #ro.build.tags=release-keys
@@ -106,8 +106,8 @@ ro.audio.silent=0
 
 ro.zygote.preload.enable=0
 
-# temporary enables NAV bar (soft keys)
-qemu.hw.mainkeys=1
+# enable soft keys
+qemu.hw.mainkeys=0
 
 ro.kernel.zio=38,108,105,16
 #ro.kernel.qemu=1
@@ -125,5 +125,4 @@ ro.mtk_perf_response_time=1
 # add by liujianbo@wind-mobi.com 20150629 begin
 persist.sys.timezone = Asia/Shanghai
 # add by liujianbo@wind-mobi.com 20150629 end
-
 

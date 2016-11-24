@@ -167,4 +167,7 @@
 
     <bool name="config_supportDoubleTapWake">true</bool>
 
+    <!-- IpReachability monitor enable/Disable -->
+    <bool translatable="false" name="config_wifi_ipreachability_monitor">false</bool>
+
 </resources>

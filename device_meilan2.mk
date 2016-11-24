@@ -80,7 +80,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     Torch \
-    libxlog \
     libmtk_symbols \
     libperfservicenative \
     libcurl

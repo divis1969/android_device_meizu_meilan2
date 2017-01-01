@@ -146,7 +146,7 @@ BOARD_RIL_CLASS := ../../../$(DEVICE_PATH)/ril
 
 BOARD_SEPOLICY_DIRS := $(DEVICE_PATH)/sepolicy
 
-TARGET_LDPRELOAD += libxlog.so:libmtk_symbols.so
+TARGET_LDPRELOAD += libmtk_symbols.so
 
 BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 

@@ -15,6 +15,8 @@ import init.modem.rc
 import init.target.rc
 
 on init
+    export LD_PRELOAD "libmtk_symbols.so"
+
     export USBOTG_STORAGE /storage/usbotg
     mount tmpfs tmpfs /mnt/media_rw/ mode=0755,uid=1000,gid=1000
     mkdir /mnt/media_rw/usbotg 0700 media_rw media_rw

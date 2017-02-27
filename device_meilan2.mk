@@ -13,7 +13,7 @@ else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
 
-TARGET_OTA_ASSERT_DEVICE := meilan2,meizu_m2_mini,m2
+TARGET_OTA_ASSERT_DEVICE := meilan2,meizu_m2_mini,m2,M2
 
 TARGET_PROVIDES_INIT_RC := true
 
